@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.container h2{
+    color: rgb(25, 25, 25);
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.container p{
+    text-align: center;
+    color: rgb(68, 67, 67);
+}
+
+.container .note{
+    text-align: center;
+    width: 400px;
+    background-color: rgb(234, 234, 234);
+    color: rgb(101, 104, 104);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container .codes{
+    width: auto;
+    display: flex;
+    margin: 20px 50px;
+}
+
+.container .codes input{
+    margin: 0 10px;
+    font-size: 72px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    border: 1px solid rgba(215, 222, 227, 0.479);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(9, 42, 69, 0.479);
+}
+
+.container .codes input::-webkit-outer-spin-button,
+.container .codes input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container .codes input.content{
+    border: 1px solid rgba(8, 54, 87, 0.479);
+}
+
